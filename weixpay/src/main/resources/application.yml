@@ -1,0 +1,10 @@
+spring:
+  resources:
+    static-locations: /WEB-INF/static/
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+
+logging:
+  config: classpath:logback-spring.xml
